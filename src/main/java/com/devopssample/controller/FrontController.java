@@ -11,8 +11,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping(value = "/")
 public class FrontController{
-	
-	@GetMapping(path = "/greeting")
+
+	@RequestMapping(value = "", method = RequestMethod.GET)
 	public ModelAndView getHomeView(HttpServletRequest request) {
 		return new ModelAndView("home");
 	}
