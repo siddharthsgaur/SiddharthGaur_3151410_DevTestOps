@@ -12,7 +12,7 @@
 				value="${ pageContext.request.contextPath }"><a
 				class="navbar-brand" href="${pageContext.request.contextPath }/"
 				style="margin-top: -9px;"><img
-				src="${ pageContext.request.contextPath }/resources/images/logo2.png"></a>
+				src="${ pageContext.request.contextPath }/resources/images/logo2.png" alt="This alt text is for NAGP"></a>
 		</div>
 		<c:if test="${ user ne null }">
 			<ul class="nav navbar-nav navbar-right">
